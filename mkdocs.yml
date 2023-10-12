@@ -1,0 +1,8 @@
+site_name: Testing Archived Repos
+
+nav:
+  - Home: index.md
+
+plugins:
+  - monorepo
+  - techdocs-core

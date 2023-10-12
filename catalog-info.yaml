@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-archived-repo
+  title: Testing Archived Repos
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://RoadieHQ.github.io/test-archived-repo/
+      title: Live website
+  annotations:
+    github.com/project-slug: RoadieHQ/test-archived-repo
+spec:
+  type: website
+  owner: unknown
+  lifecycle: experimental
